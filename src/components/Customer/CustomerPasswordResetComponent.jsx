@@ -40,7 +40,7 @@ class CustomerPasswordResetComponent extends React.Component{
             
             switch (res.data) {
                 case "Password reset success": alert("Success!")
-                this.props.history.push('/login');
+                this.props.history.push('/CustomerLogin');
                     break;
                 case "User not found": alert("User not found")
                     break;
