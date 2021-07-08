@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
-const customer_base_url="http://ec2-18-234-178-162.compute-1.amazonaws.com:8081/api/v1/customers"
-const LOGIN_API_BASE_URL="http://ec2-18-234-178-162.compute-1.amazonaws.com:8081/api/v1";
+const customer_base_url="http://ec2-52-201-202-143.compute-1.amazonaws.com:8081/api/v1/customers"
+const LOGIN_API_BASE_URL="http://ec2-52-201-202-143.compute-1.amazonaws.com:8081/api/v1";
 class CustomerService extends React.Component{
     getAllCustomers(){
         axios.get(customer_base_url);
